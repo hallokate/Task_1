@@ -9,34 +9,6 @@ for i in range(N):
     points.append(a)
 
 
-'''
-point_1 = (0, 0)
-point_2 = (0, 4)
-point_3 = (4, 4)
-point_4 = (4, 0)
-'''
-'''
-point_1 = (0, 2)
-point_2 = (2, 5)
-point_3 = (6, 6)
-point_4 = (8, 4)
-point_5 = (5, 2)
-'''
-'''
-points=[]
-points.append(point_1)
-points.append(point_2)
-points.append(point_3)
-points.append(point_4)
-'''
-'''
-points.append(point_1)
-points.append(point_2)
-points.append(point_3)
-points.append(point_4)
-points.append(point_5)
-'''
-
 num=''
 for i in range(len(points)):
     num += str(i)
