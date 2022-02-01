@@ -1,6 +1,6 @@
 from itertools import permutations
 
-N = int(input('Введите количество рунктов: '))
+N = int(input('Введите количество пунктов: '))
 points=[]
 for i in range(N):
     t = input('Введите координаты пункта: ')
