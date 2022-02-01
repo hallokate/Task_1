@@ -1,13 +1,11 @@
 from itertools import permutations
 
-
 N = int(input('Введите количество рунктов: '))
 points=[]
 for i in range(N):
     t = input('Введите координаты пункта: ')
     a = tuple(int(x) for x in t.split())
     points.append(a)
-
 
 num=''
 for i in range(len(points)):
@@ -24,7 +22,6 @@ def get_total_lenght(new_c):
 
 def get_lenght(a,b):
     return ((points[b][0] - points[a][0]) ** 2 + (points[b][1] - points[a][1]) ** 2) ** 0.5
-
 
 all_new_c = []
 min = 0
