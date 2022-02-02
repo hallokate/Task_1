@@ -1,11 +1,18 @@
 from itertools import permutations
 
-N = int(input('Введите количество пунктов: '))
+point_1 = (0, 2)
+point_2 = (2, 5)
+point_3 = (6, 6)
+point_4 = (8, 4)
+point_5 = (5, 2)
+
 points=[]
-for i in range(N):
-    t = input('Введите координаты пункта: ')
-    a = tuple(int(x) for x in t.split())
-    points.append(a)
+
+points.append(point_1)
+points.append(point_2)
+points.append(point_3)
+points.append(point_4)
+points.append(point_5)
 
 num=''
 for i in range(len(points)):
@@ -22,6 +29,7 @@ def get_total_lenght(new_c):
 
 def get_lenght(a,b):
     return ((points[b][0] - points[a][0]) ** 2 + (points[b][1] - points[a][1]) ** 2) ** 0.5
+
 
 all_new_c = []
 min = 0
@@ -46,10 +54,4 @@ for i in range(1, len(min_c)):
 min_c_str += '->(' + str(points[min_c[0]][0]) + ', ' + str(points[min_c[0]][1]) + ')[' + str(min) + ']'
 min_c_str += ' = ' +  str(min)
 print(min_c_str)
-
-
-
-
-
-
 
