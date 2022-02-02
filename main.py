@@ -2,9 +2,9 @@ from itertools import permutations
 
 point_1 = (0, 2)
 point_2 = (2, 5)
-point_3 = (6, 6)
-point_4 = (8, 4)
-point_5 = (5, 2)
+point_3 = (5, 2)
+point_4 = (6, 6)
+point_5 = (8, 3)
 
 points=[]
 
